@@ -1,7 +1,7 @@
 About datavzrd
 ==============
 
-Home: https://github.com/koesterlab/datavzrd
+Home: https://github.com/datavzrd/datavzrd
 
 Package license: MIT
 
@@ -9,9 +9,9 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datavzrd-feedst
 
 Summary: A tool to create visual interactive standalone HTML reports from collections of CSV/TSV tables
 
-Development: https://github.com/koesterlab/datavzrd
+Development: https://github.com/datavzrd/datavzrd
 
-Documentation: https://github.com/koesterlab/datavzrd
+Documentation: https://github.com/datavzrd/datavzrd
 
 A tool to create visual and interactive standalone HTML reports from
 collections of CSV/TSV tables.
@@ -70,8 +70,8 @@ Current build status
 Current release info
 ====================
 
-| Name | Downloads | Version | Platforms |
-| --- | --- | --- | --- |
+| Name                                                                                                                 | Downloads                                                                                                                 | Version                                                                                                                 | Platforms                                                                                                                 |
+| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-datavzrd-green.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) |
 
 Installing datavzrd

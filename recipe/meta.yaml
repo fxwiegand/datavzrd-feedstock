@@ -1,13 +1,13 @@
 {% set name = "datavzrd" %}
-{% set version = "2.8.1" %}
+{% set version = "2.9.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://github.com/koesterlab/datavzrd/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 30ff83594f7d9efe207d225ae6f79dc9187f14cc71ca081e1f7dfde9315701f6
+  url: https://github.com/datavzrd/datavzrd/archive/refs/tags/v{{ version }}.tar.gz
+  sha256: 53187138c2168d6fca81682e9eccb76455703929ea199f9b48a56f291a8e563f
 
 build:
   number: 0
@@ -23,12 +23,11 @@ test:
     - datavzrd --help
 
 about:
-  home: https://github.com/koesterlab/datavzrd
+  home: https://github.com/datavzrd/datavzrd
   license: MIT
   license_family: MIT
   license_file: LICENSE
   summary: A tool to create visual interactive standalone HTML reports from collections of CSV/TSV tables
-  # The remaining entries in this section are optional, but recommended.
   description: |
     A tool to create visual and interactive standalone HTML reports from 
     collections of CSV/TSV tables. 
@@ -36,8 +35,8 @@ about:
     per column. Plots can be fully customized by users via a config file. 
     These also allow the user to add linkouts to other websites or link 
     between multiple tables.
-  doc_url: https://github.com/koesterlab/datavzrd
-  dev_url: https://github.com/koesterlab/datavzrd
+  doc_url: https://github.com/datavzrd/datavzrd
+  dev_url: https://github.com/datavzrd/datavzrd
 
 extra:
   recipe-maintainers:
