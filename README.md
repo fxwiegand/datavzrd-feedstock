@@ -70,8 +70,8 @@ Current build status
 Current release info
 ====================
 
-| Name                                                                                                                 | Downloads                                                                                                                 | Version                                                                                                                 | Platforms                                                                                                                 |
-| -------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
 | [![Conda Recipe](https://img.shields.io/badge/recipe-datavzrd-green.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/datavzrd.svg)](https://anaconda.org/conda-forge/datavzrd) |
 
 Installing datavzrd
