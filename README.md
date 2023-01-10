@@ -17,7 +17,7 @@ A tool to create visual and interactive standalone HTML reports from
 collections of CSV/TSV tables.
 Reports include automatically generated vega-lite histograms
 per column. Plots can be fully customized by users via a config file.
-These also allow the user to add linkouts to other websites or link
+These also enable the user to add linkouts to other websites or link
 between multiple tables.
 
 
