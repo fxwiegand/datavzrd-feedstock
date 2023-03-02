@@ -1,11 +1,11 @@
-About datavzrd
-==============
+About datavzrd-feedstock
+========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datavzrd-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/datavzrd/datavzrd
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/datavzrd-feedstock/blob/main/LICENSE.txt)
 
 Summary: A tool to create visual interactive standalone HTML reports from collections of CSV/TSV tables
 
