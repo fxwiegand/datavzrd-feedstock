@@ -1,5 +1,5 @@
 {% set name = "datavzrd" %}
-{% set version = "2.21.1" %}
+{% set version = "2.22.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/datavzrd/datavzrd/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: ecaca5c691535ff4c0be86af72c2fa6dc55cd3160e104fb86db16d46143dbad6
+  sha256: 8739d97836ba7f36911b303458dc382b488118ee3e6b45463f437ffe2ec029fc
 
 build:
   number: 0
@@ -17,6 +17,7 @@ requirements:
   build:
     - {{ compiler('rust') }}
     - {{ compiler('c') }}
+    - nodejs
 
 test:
   commands:
