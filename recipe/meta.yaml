@@ -19,6 +19,7 @@ requirements:
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
     - nodejs
+    - pnpm
 
 test:
   commands:
