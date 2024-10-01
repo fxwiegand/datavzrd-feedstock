@@ -20,6 +20,8 @@ requirements:
     - {{ stdlib("c") }}
     - nodejs
     - pnpm
+  run:
+    - yte
 
 test:
   commands:
