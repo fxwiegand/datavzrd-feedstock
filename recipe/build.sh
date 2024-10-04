@@ -3,4 +3,6 @@
 # Make sure bindgen passes on our compiler flags.
 export BINDGEN_EXTRA_CLANG_ARGS="${CPPFLAGS} ${CFLAGS} ${LDFLAGS}"
 
+export PYO3_PYTHON="${PYTHON}"
+
 cargo install --no-track --locked --verbose --root "${PREFIX}" --path .
