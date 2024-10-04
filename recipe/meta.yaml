@@ -27,6 +27,7 @@ requirements:
     - openssl
     - python
   run:
+    - python
     - yte
 
 test:
