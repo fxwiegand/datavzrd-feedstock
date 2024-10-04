@@ -22,6 +22,7 @@ requirements:
     - nodejs
     - pnpm
     - openssl
+    - pkg-config
   run:
     - yte
 
