@@ -18,7 +18,7 @@ requirements:
     - {{ compiler('rust') }}
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
-    - python 3.10
+    - python >=3.10
     - nodejs
     - pnpm
     - openssl
