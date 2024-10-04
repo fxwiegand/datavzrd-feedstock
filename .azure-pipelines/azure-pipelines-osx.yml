@@ -8,17 +8,41 @@ jobs:
     vmImage: macOS-12
   strategy:
     matrix:
-      osx_64_nodejs18:
-        CONFIG: osx_64_nodejs18
+      osx_64_nodejs18python3.10.____cpython:
+        CONFIG: osx_64_nodejs18python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_nodejs20:
-        CONFIG: osx_64_nodejs20
+      osx_64_nodejs18python3.11.____cpython:
+        CONFIG: osx_64_nodejs18python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_nodejs18:
-        CONFIG: osx_arm64_nodejs18
+      osx_64_nodejs18python3.12.____cpython:
+        CONFIG: osx_64_nodejs18python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_nodejs20:
-        CONFIG: osx_arm64_nodejs20
+      osx_64_nodejs20python3.10.____cpython:
+        CONFIG: osx_64_nodejs20python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_nodejs20python3.11.____cpython:
+        CONFIG: osx_64_nodejs20python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_nodejs20python3.12.____cpython:
+        CONFIG: osx_64_nodejs20python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs18python3.10.____cpython:
+        CONFIG: osx_arm64_nodejs18python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs18python3.11.____cpython:
+        CONFIG: osx_arm64_nodejs18python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs18python3.12.____cpython:
+        CONFIG: osx_arm64_nodejs18python3.12.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs20python3.10.____cpython:
+        CONFIG: osx_arm64_nodejs20python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs20python3.11.____cpython:
+        CONFIG: osx_arm64_nodejs20python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_nodejs20python3.12.____cpython:
+        CONFIG: osx_arm64_nodejs20python3.12.____cpython
         UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
   variables: {}
