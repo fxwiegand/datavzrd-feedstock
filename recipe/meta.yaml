@@ -21,6 +21,7 @@ requirements:
     - python 3.10
     - nodejs
     - pnpm
+    - openssl
   run:
     - yte
 
