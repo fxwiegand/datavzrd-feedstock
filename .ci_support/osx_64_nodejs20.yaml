@@ -18,6 +18,8 @@ macos_machine:
 - x86_64-apple-darwin13.4.0
 nodejs:
 - '20'
+openssl:
+- '3'
 rust_compiler:
 - rust
 target_platform:
