@@ -21,7 +21,7 @@ requirements:
     - python >=3.10
     - nodejs
     - pnpm
-    - openssl >=1.1,<3
+    - openssl
   run:
     - yte
 
