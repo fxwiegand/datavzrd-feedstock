@@ -1,5 +1,5 @@
 {% set name = "datavzrd" %}
-{% set version = "2.42.1" %}
+{% set version = "2.43.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,19 +7,29 @@ package:
 
 source:
   url: https://github.com/datavzrd/datavzrd/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 1d8409523ad45d113daa70cc91a3f3e89ca879db570a6abe958d4f20355f687a
+  sha256: 0ca1057b0d7a663d61c58296b32f1aeddb85b1b603cfa5e4514159732f263969
 
 build:
   number: 0
-  skip: true  # [win]
+  # TODO osx-arm64 builds fail (https://github.com/conda-forge/datavzrd-feedstock/pull/153), reenable them once fixed
+  skip: true  # [(osx and arm64) or win or py<310]
 
 requirements:
   build:
     - {{ compiler('rust') }}
     - {{ compiler('c') }}
     - {{ stdlib("c") }}
+    - python                              # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}  # [build_platform != target_platform]
     - nodejs
     - pnpm
+    - pkg-config
+  host:
+    - openssl
+    - python
+  run:
+    - python
+    - yte
 
 test:
   commands:
