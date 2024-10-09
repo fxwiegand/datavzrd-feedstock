@@ -12,7 +12,7 @@ source:
 build:
   number: 0
   # TODO osx-arm64 builds fail (https://github.com/conda-forge/datavzrd-feedstock/pull/153), reenable them once fixed
-  skip: true  # [win or py<310 or osx-arm64]
+  skip: true  # [osx-arm64 or win or py<310]
 
 requirements:
   build:
